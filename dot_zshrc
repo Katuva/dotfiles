@@ -30,7 +30,6 @@ alias grep='rg'
 
 alias yay='paru'
 
-export COLORTERM=truecolor
 export BROWSER='/usr/bin/vivaldi-stable'
 export EDITOR=nvim
 
