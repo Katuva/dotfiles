@@ -9,6 +9,8 @@ fi
 
 export PATH=/home/wes/.local/share/bob/nvim-bin:$PATH
 
+eval "$(atuin init zsh --disable-up-arrow)"
+
 alias e='nvim'
 alias nano='nvim'
 alias vim='nvim'
@@ -18,10 +20,19 @@ alias la='eza -la --color=always --group-directories-first --icons=auto'
 alias ll='eza -l --color=always --group-directories-first --icons=auto'
 alias lt='eza -aT --color=always --group-directories-first --icons=auto'
 
+alias cadd='chezmoi add'
+alias cedit='chezmoi edit'
+alias cdiff='chezmoi diff'
+alias capply='chezmoi apply'
+alias ccd='chezmoi cd'
+
+alias grep='rg'
+
 alias yay='paru'
 
 export COLORTERM=truecolor
 export BROWSER='/usr/bin/vivaldi-stable'
+export EDITOR=nvim
 
 export LESS_TERMCAP_mb=$'\E[01;31m'
 export LESS_TERMCAP_md=$'\E[01;31m'

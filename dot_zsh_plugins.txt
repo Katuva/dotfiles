@@ -1,6 +1,6 @@
 mattmc3/zephyr path:plugins/completion
 romkatv/powerlevel10k
-atuinsh/atuin
 zsh-users/zsh-autosuggestions
+atuinsh/atuin
 
 zdharma-continuum/fast-syntax-highlighting kind:defer
