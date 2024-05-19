@@ -27,6 +27,7 @@ alias capply='chezmoi apply'
 alias ccd='chezmoi cd'
 
 alias grep='rg'
+alias lg='lazygit'
 
 alias yay='paru'
 
